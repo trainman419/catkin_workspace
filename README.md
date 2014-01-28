@@ -56,7 +56,8 @@ Update the workspace and rebuild it:
 
 ## Open questions
 
- * Should catkin_workspace be able to maintain a full source tree?
+ * Is catkin_workspace really the best name?
+ * Should catkin_workspace be able to maintain a full source tree or just user overlays?
  * If checking out individual packages, will catkin_workspace ever need to use rosinstall_generator to find dependencies?
  * How do we resolve binary vs source-only dependencies?
   1. invoke rosdep to figure out which dependencies are installable from binaries
